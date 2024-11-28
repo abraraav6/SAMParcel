@@ -1,0 +1,34 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.samparcel.app.ui.fragments.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_parcel_booking"
+            app:destination="@id/parcelBookingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/parcelBookingFragment"
+        android:name="com.samparcel.app.ui.fragments.ParcelBookingFragment"
+        android:label="Book Parcel">
+        <action
+            android:id="@+id/action_parcel_booking_to_tracking"
+            app:destination="@id/parcelTrackingActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.samparcel.app.ui.fragments.ProfileFragment"
+        android:label="Profile" />
+
+    <activity
+        android:id="@+id/parcelTrackingActivity"
+        android:name="com.samparcel.app.ui.activities.ParcelTrackingActivity"
+        android:label="Track Parcel" />
+
+</navigation>

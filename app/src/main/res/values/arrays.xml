@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="parcel_types">
+        <item>Document</item>
+        <item>Package</item>
+        <item>Heavy Package</item>
+        <item>Fragile</item>
+    </string-array>
+
+    <string-array name="delivery_speeds">
+        <item>Standard (3-5 days)</item>
+        <item>Express (1-2 days)</item>
+        <item>Same Day</item>
+    </string-array>
+</resources>

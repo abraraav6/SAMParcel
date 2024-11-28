@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_parcel_weight">50</integer>
+    <integer name="min_password_length">8</integer>
+    <integer name="max_address_length">200</integer>
+    <integer name="map_zoom_level">15</integer>
+</resources>

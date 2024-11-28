@@ -1,0 +1,5 @@
+<resources>
+    <bool name="enable_location_tracking">true</bool>
+    <bool name="enable_notifications">true</bool>
+    <bool name="enable_dark_mode">false</bool>
+</resources>

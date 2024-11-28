@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:endColor="@color/colorPrimaryDark"
+                android:startColor="@color/colorPrimary"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item
+        android:bottom="0dp"
+        android:drawable="@drawable/pattern_dots"
+        android:top="0dp" />
+</layer-list>
